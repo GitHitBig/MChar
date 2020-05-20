@@ -42,7 +42,7 @@
 
 5. ###### Explore many different models and short-list the best ones.
 
-   比较不同的模型，可以考虑使用小规模数据集去快速比较几种备选的神经网络或机器学习算法（CNN，SVM等），从而选出最佳的算法。同时也可以考虑使用已经训练好的AlexNet或者ImageNet模型去加速训练。
+   比较不同的模型，可以考虑使用小规模数据集去快速比较几种备选的神经网络或机器学习算法（CNN，SVM等），从而选出最佳的算法。同时也可以考虑使用已经训练好的AlexNet等模型去加速训练。
 
    
 
