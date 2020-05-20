@@ -8,7 +8,7 @@
 
 ### 思路
 
-这个比赛可以看作一个完整的项目。根据 "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems"的Appendix B: Machine Learning Project Checklist[1]. 我们可以按照这个checklist去对应地完成每个项目步骤。
+这个比赛可以看作一个完整的项目。根据 "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems"[1]的Appendix B: Machine Learning Project Checklist. 我们可以按照这个checklist去对应地完成每个项目步骤。
 
 
 
@@ -61,4 +61,12 @@
 8. ###### Launch, monitor, and maintain your system.
 
    根据比赛平台返回的得分，不停地改进和测试，从而得出分数更高的算法模型。此后，如有精力，可以进行提高算法鲁棒性，提速算法等改进尝试。
+
+
+
+
+
+参考文献：
+
+[1]. Géron, Aurélien. *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems*. O'Reilly Media, 2019.
 
