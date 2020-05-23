@@ -34,3 +34,19 @@ Data augmentation is a strategy that enables practitioners to significantly incr
 
 多样本扩增包括：SamplePairing和mixup，二者思路很相近。
 
+
+
+参考文献：
+
+[1]. 知乎用户何之源, *十图详解tensorflow数据读取机制（附代码）*,  https://zhuanlan.zhihu.com/p/27238630, Jun. 2017.
+
+[2]. 知乎用户Sherlock, *PyTorch实现自由的数据读取*, https://zhuanlan.zhihu.com/p/30385675, Oct. 2017.
+
+[3]. Daniel Ho, Eric Liang, Richard Liaw, *1000x Faster Data Augmentation*, https://bair.berkeley.edu/blog/2019/06/07/data_aug/, Sep. 2019.
+
+[4]. 知乎用户阿水, *Kaggle知识点：数据扩增方法*, https://zhuanlan.zhihu.com/p/133270667, Apr. 2020.
+
+[5]. 知乎用户zzq, *图像数据扩增技术*, https://zhuanlan.zhihu.com/p/71140833, Jun. 2019.
+
+
+
