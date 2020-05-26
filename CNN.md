@@ -20,23 +20,23 @@ CNN也是一种Artificial Neural Network, 但使其有别于传统的DNN和MLP�
 
 假设我们有一张图片（数字7）如下：
 
-![mnist 7](/Users/lzhong/Downloads/Datasets/MChar/mnist 7.png)
+![mnist7](https://github.com/GitHitBig/MChar/blob/master/mnist7.png)
 
 
 
 我们把其作normalization后的像素值放到Excel表格中，可以看到上图最白的地方值是1.0。黑色部分是0.0。
 
-![image-20200526222011251](/Users/lzhong/Downloads/Datasets/MChar/image-20200526222011251.png)
+![image-20200526222011251](https://github.com/GitHitBig/MChar/blob/master/image-20200526222011251.png)
 
 
 
 如果我们通过以下4个filters去对上图进行卷积操作：
 
-![image-20200526222816601](/Users/lzhong/Downloads/Datasets/MChar/image-20200526222816601.png)
+![image-20200526222816601](https://github.com/GitHitBig/MChar/blob/master/image-20200526222816601.png)
 
 则得到对应的结果分别是：
 
-![image-20200526222902586](/Users/lzhong/Library/Application Support/typora-user-images/image-20200526222902586.png)
+![image-20200526222902586](https://github.com/GitHitBig/MChar/blob/master/image-20200526222902586.png)
 
 我们可以看出第一、三个filters能对横向的轮廓加深其特征；而第二、四个filters则是对纵向有加深作用。
 
@@ -44,6 +44,14 @@ CNN也是一种Artificial Neural Network, 但使其有别于传统的DNN和MLP�
 
 为什么会产生这样不同的作用呢？其实本质上是在图像中找出与filter形状相似的特征。把filter和图片都展开成两个一维向量，然后对他们进行逐步逐步进行点积操作。跟cosine similarity类似，如果两个向量越接近（相似）则其乘积越大，因此可以突出其特征。
 
-![image-20200526223743347](/Users/lzhong/Downloads/Datasets/MChar/image-20200526223743347.png)
+![image-20200526223743347](https://github.com/GitHitBig/MChar/blob/master/image-20200526223743347.png)
 
 进一步说，如果能从把图片和filter都展开成一维向量去理解，那么其实不难理解其跟fully connected layer是相通的，也从而不难理解卷积层是如何进行梯度下降和反向传播的了。
+
+
+
+参考资料：
+
+1. https://deeplizard.com/learn/video/YRhxdVk_sIs
+
+2. https://deeplizard.com/learn/video/mFAIBMbACMA
